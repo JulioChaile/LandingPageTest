@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/LandingPageTest/static/css/main.0aa19a81.css",
+    "main.js": "/LandingPageTest/static/js/main.788f74f1.js",
+    "static/js/787.85120f7d.chunk.js": "/LandingPageTest/static/js/787.85120f7d.chunk.js",
+    "static/media/Manrope-VariableFont_wght.ttf": "/LandingPageTest/static/media/Manrope-VariableFont_wght.fca742de1e52774d3fad.ttf",
+    "static/media/Home-slide-BG.png": "/LandingPageTest/static/media/Home-slide-BG.547019438987b68d7cd7.png",
+    "static/media/wazuh-log.svg": "/LandingPageTest/static/media/wazuh-log.c6ec87f7b4e9fb44ecf335e97d788905.svg",
+    "index.html": "/LandingPageTest/index.html",
+    "main.0aa19a81.css.map": "/LandingPageTest/static/css/main.0aa19a81.css.map",
+    "main.788f74f1.js.map": "/LandingPageTest/static/js/main.788f74f1.js.map",
+    "787.85120f7d.chunk.js.map": "/LandingPageTest/static/js/787.85120f7d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0aa19a81.css",
+    "static/js/main.788f74f1.js"
+  ]
+}
