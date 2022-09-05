@@ -1,38 +1,111 @@
+:root {
+ --w-dark: #292929;
+ --w-celeste: #3585F9;
+ --w-blue: #256BD1;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: local('Manrope'), url(./fonts/Manrope-VariableFont_wght.ttf) format('truetype');
+}
+
 .App {
-  text-align: center;
+  font-family: Manrope;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-link {
+  color: var(--w-dark) !important
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-content {
+  margin-right: 10%;
+  margin-left: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.bg-wazuh-slide {
+  background: url(./assets/Home-slide-BG.png) no-repeat center center;
+  height: 475px;
+}
+
+.bg-dark {
+  background-color: var(--w-dark) !important
+}
+
+.text-white {
+  color: #FFFFFF
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-medium {
+  font-weight: medium;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.bg-card {
+  background-color: #EBF2FB;
+}
+
+.bg-blue {
+  background-color: var(--w-blue) !important;
+}
+
+.card-info {
+  border-bottom: 8px solid var(--w-celeste);
+}
+
+.footer-info {
+  border-top: 2px solid #B7C6D7;
+}
+
+.text-celeste {
+  color: var(--w-celeste);
+}
+
+.icon-card {
+  position: absolute;
+  top: -45px;
+  left: calc(50% - 37px);
+}
+
+.slide-content {
+  width: 70vw;
+  height: 300px;
+}
+
+.mx-auto {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.carousel-inner {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  position: relative;
 }
 
-.App-link {
-  color: #61dafb;
+.absolute {
+  position: absolute;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.f-13 {
+  font-size: 13px;
+}
+
+.focus-element:hover {
+  transform: scale(1.1);
+  transition: all .1s ease-in;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
